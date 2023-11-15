@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+hr {
+  color: #616161;
+}
+
+.breef-about {
+  width: 100%;
+  height: 30vh;
+  margin-top: 20px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.main-cont {
+  /* background-color: blue; */
+  width: 850px;
+  padding: 40px;
+
+}
+
+.breef-text {
+  color: grey;
+  margin-top: 13px;
+  /* background-color: red; */
+  /* width: 80%; */
+}
+
+
+.hrhai {
+  width: 100%;
+  /* height: 29px; */
+  display: flex;
+  justify-content: center;
+
+}
+
+.enjoy-main-title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.enjoy {
+  font-size: x-large;
+  font-weight: 200;
+}
+
+.drop {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.hrhai hr {
+  width: 200px;
+}
+
+@media (max-width: 477px) {
+  .main-cont {
+    width: 450px;
+  }
+}
